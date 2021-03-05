@@ -15,6 +15,7 @@ public class BeerDtoTest extends BaseTest{
      * Autowire the default object mapper configured by SpringBoot
      * NOTE: You can create yours which won't pick the SpringBoot configuration.
      */
+
     @Autowired
     ObjectMapper objectMapper;
 
